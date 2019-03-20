@@ -3,7 +3,7 @@ package pizza;
 public class Pizza  {
 
 	private String name;
-
+	private int prix = 10;
 
 
 	
@@ -15,6 +15,14 @@ public class Pizza  {
 		this.name = name;
 	}
 	
+	public int getPrix() {
+		return prix;
+	}
+
+	public void setPrix(int prix) {
+		this.prix = prix;
+	}
+	
 	public void bake() throws Exception {
 	
 	
@@ -23,5 +31,6 @@ public class Pizza  {
 	public void deliver() throws Exception {
 
 	}
+	
 }
 
